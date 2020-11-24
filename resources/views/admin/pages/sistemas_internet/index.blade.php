@@ -3,23 +3,26 @@
 @section('title','Bem-Vindo')
 @section('content')
 <style>
-    body {
-        /* background-image: url(../img/glitter.jpg); */
+body {
+    /* background-image: url(../img/glitter.jpg); */
 
-    }
+}
 </style>
+
 <body>
     <header>
         <br>
         <div class="jumbotron p-3 p-md-5 text-white rounded bg-dark">
             <div class="col-md-6 px-0">
                 <h1 class=" font-italic">IFFAR - CAMPUS PANAMBI</h1>
-                <p class="lead my-3">Seja bem-vind@ ao Repositório Web, comece escolhendo o curso e depois o trabalho ou <i>template</i></p>
+                <p class="lead my-3">Seja bem-vind@ ao Repositório Web, comece escolhendo o curso e depois o trabalho ou
+                    <i>template</i>
+                </p>
                 {{-- <p class="lead mb-0"><a href="#" class="text-white font-weight-bold">Continue lendo...</a></p> --}}
             </div>
         </div>
-        
-        
+
+
         @include('admin.pages.sistemas_internet._partials.cabecalho')
     </header>
     <!-- Mensagens de marketing e outras featurezinhas
@@ -33,31 +36,28 @@
             <div class="col-lg-4 text-center">
                 <img class="rounded-circle"
                     {{-- src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" --}}
-                    src="img/photo.png"
-                    alt="Generic placeholder image" width="140" height="140"><br><br>
+                    src="img/photo.png" alt="Generic placeholder image" width="140" height="140"><br><br>
                 <h2>Tecnologia Em Sistemas para Internet</h2>
                 <p>Breve descrição do curso</p>
-                <p><a class="btn btn-secondary" href="#" role="button">Ver &raquo;</a></p>
+                <p><a class="btn btn-secondary" style="width:90;height:40" href="#" role="button">Ver &raquo;</a></p>
             </div><!-- /.col-lg-4 -->
             <div class="col-lg-4 text-center">
                 <img class="rounded-circle"
                     {{-- src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" --}}
-                    src="img/photo.png"
-                    alt="Generic placeholder image" width="140" height="140"><br><br>
+                    src="img/photo.png" alt="Generic placeholder image" width="140" height="140"><br><br>
                 <h2>Tecnologia Em Sistemas para Internet</h2>
                 <p>Breve descrição do curso</p>
 
-                <p><a class="btn btn-secondary" href="#" role="button">Ver &raquo;</a></p>
+                <p><a class="btn btn-secondary" style="width:90;height:40" href="#" role="button">Ver &raquo;</a></p>
             </div><!-- /.col-lg-4 -->
             <div class="col-lg-4 text-center">
                 <img class="rounded-circle"
                     {{-- src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" --}}
-                    src="img/photo.png"
-                    alt="Generic placeholder image" width="140" height="140"><br><br>
+                    src="img/photo.png" alt="Generic placeholder image" width="140" height="140"><br><br>
                 <h2>Tecnologia Em Sistemas para Internet</h2>
                 <p>Breve descrição do curso</p>
 
-                <p><a class="btn btn-secondary" href="#" role="button">Ver &raquo;</a></p>
+                <p><a class="btn btn-secondary" style="width:90;height:40" href="#" role="button">Ver &raquo;</a></p>
             </div><!-- /.col-lg-4 -->
         </div><!-- /.row -->
 
@@ -67,7 +67,7 @@
         <hr class="featurette-divider">
         <h3>Arquivos inseridos recentemente</h3>
 
-        <table  id="example" class="display text-center" style="width:100%">
+        <table id="example" class="display text-center" style="width:100%">
             <thead>
                 <tr>
                     <th width="100">Título</th>
@@ -96,50 +96,17 @@
                     <td><a href="">Ver mais...</a> <a href="">Baixar</a> </td>
                 </tr>
             </tbody>
-        </table>
-        <div class="row featurette">
-            {{-- <div class="col-md-5">
-                <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto"
-                    alt="Generic placeholder image">
-            </div> --}}
-        </div>
-
-        <hr class="featurette-divider">
-
-        {{-- <div class="row featurette">
-            <div class="col-md-7 order-md-2">
-                <h2 class="featurette-heading">Aêêê, moleque! <span class="text-muted">Tá legal ou não tá?</span></h2>
-                <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis
-                    euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus,
-                    tellus ac cursus commodo.</p>
-            </div>
-            <div class="col-md-5 order-md-1">
-                <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto"
-                    alt="Generic placeholder image">
-            </div>
-        </div> --}}
-
-        <hr class="featurette-divider">
-
-
-
-        <hr class="featurette-divider">
-
-        <!-- /FIM DAS FEATUREZINHAS *-* -->
-
+        </table><br>
     </div>
     </div><!-- /.container -->
-
-
     </section>
     <!-- FOOTER -->
     @include('admin.pages.sistemas_internet._partials.rodape')
     @endsection
 
-  
+
 </body>
 
 
 
-</html> 
-
+</html>
