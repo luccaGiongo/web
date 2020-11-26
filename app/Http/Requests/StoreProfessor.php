@@ -27,5 +27,4 @@ class StoreProfessor extends FormRequest
             //
         ];
     }
-    
 }
